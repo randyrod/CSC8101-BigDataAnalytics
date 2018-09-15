@@ -76,3 +76,10 @@ Input File: **qualifying_simple.txt**
 Using spark, pull in all the Movie Id, User Id, Date lines from qualifying_simple.txt and produce a DataFrame of (User Id, Movie Id) (you may ignore the dates). Use the model produced in Task 2 to calculate ratings for every element of this DataFrame.
 
 Once you have done this, you should write these ratings to a file.
+
+#### Task 7
+The goal of this last task is to establish users similarity based on how they rate the same movies, using the DataFrame that you created in Task 6.
+
+In this exercise, the similarity between users (u1, u2) is defined as the number of movies that both u1 and u2 rate at least 3.
+
+Your task is to find the top 10 most similar users to user 30878.
