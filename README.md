@@ -1,4 +1,4 @@
-# CSC8101-BigDataAnalytics
+# Movie Recommendations-BigDataAnalytics
 MSc Cloud Computing CSC8101 Big Data Analytics
 
 ## Requirements
